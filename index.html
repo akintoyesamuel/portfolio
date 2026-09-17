@@ -3,25 +3,25 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Akintoye Samuel — Senior Graphic &amp; UI/UX Designer </title>
-<meta name="description" content="Akintoye Samuel — Senior Graphic Designer, UI/UX Designer, Motion Designer &amp; Video Editor with 7+ years building brand identities, product interfaces and motion work for clients worldwide."/>
+<title>Akintoye Samuel — Senior Creative Designer</title>
+<meta name="description" content="Akintoye Samuel — Senior Creative Designer: Graphic &amp; UI/UX Designer, 3D &amp; Motion Graphics Designer, Video Editor and Python Developer with 7+ years building brand identities, product interfaces, 3D visuals and motion work for clients worldwide."/>
 <meta name="author" content="Akintoye Samuel"/>
 <meta name="theme-color" content="#0B1120"/>
-<link rel="canonical" href="https://akintoyesamuel.github.io/portfolio/"/>
+<link rel="canonical" href="https://akintoyesamuelportfolio.netlify.app"/>
 
 <!-- Open Graph -->
 <meta property="og:type" content="website"/>
-<meta property="og:title" content="Akintoye Samuel — Senior Graphic &amp; UI/UX Designer"/>
-<meta property="og:description" content="7+ years crafting brand identities, product interfaces and motion design for clients across the US, UK, Canada, Nigeria and Ghana."/>
-<meta property="og:image" content="https://akintoyesamuel.github.io/portfolio/assets/images/myprofile.png"/>
-<meta property="og:url" content="https://akintoyesamuel.github.io/portfolio/"/>
+<meta property="og:title" content="Akintoye Samuel — Senior Creative Designer"/>
+<meta property="og:description" content="Senior Creative Designer | Graphic &amp; UI/UX Designer | 3D &amp; Motion Graphics Designer | Video Editor | Python Developer. 7+ years crafting brand identities, product interfaces, 3D visuals and motion design for clients across the US, UK, Canada, Nigeria and Ghana."/>
+<meta property="og:image" content="https://akintoyesamuelportfolio.netlify.app/assets/images/myprofile.png"/>
+<meta property="og:url" content="https://akintoyesamuelportfolio.netlify.app"/>
 <meta property="og:site_name" content="Akintoye Samuel Portfolio"/>
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="Akintoye Samuel — Senior Graphic &amp; UI/UX Designer"/>
-<meta name="twitter:description" content="7+ years crafting brand identities, product interfaces and motion design for clients worldwide."/>
-<meta name="twitter:image" content="https://akintoyesamuel.github.io/portfolio/assets/images/myprofile.png"/>
+<meta name="twitter:title" content="Akintoye Samuel — Senior Creative Designer"/>
+<meta name="twitter:description" content="Senior Creative Designer | Graphic &amp; UI/UX Designer | 3D &amp; Motion Graphics Designer | Video Editor | Python Developer. 7+ years crafting brand identities, product interfaces, 3D visuals and motion design for clients worldwide."/>
+<meta name="twitter:image" content="https://akintoyesamuelportfolio.netlify.app/assets/images/myprofile.png"/>
 
 <link rel="preload" as="image" href="assets/images/myprofile.png" type="image/png" fetchpriority="high"/>
 <link rel="icon" type="image/png" href="assets/images/myprofile.png"/>
@@ -33,11 +33,11 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Akintoye Samuel",
-  "jobTitle": "Senior Graphic Designer & UI/UX Designer",
+  "jobTitle": "Senior Creative Designer | Graphic & UI/UX Designer | 3D & Motion Graphics Designer | Video Editor | Python Developer",
   "email": "mailto:omoobaiyeakintoyesamuel@gmail.com",
   "telephone": ["+2348158532686", "+2348061461408"],
-  "url": "https://akintoyesamuel.github.io/portfolio/",
-  "image": "https://akintoyesamuel.github.io/portfolio/assets/images/myprofile.png",
+  "url": "https://akintoyesamuelportfolio.netlify.app",
+  "image": "https://akintoyesamuelportfolio.netlify.app/assets/images/myprofile.png",
   "sameAs": ["https://www.linkedin.com/in/akintoye-omoobaiye-870479355"],
   "address": { "@type": "PostalAddress", "addressCountry": "NG" },
   "knowsAbout": ["Graphic Design", "UI/UX Design", "Motion Graphics", "Brand Identity", "Video Editing"]
@@ -598,13 +598,22 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
 .footer-links a:hover{color:var(--accent);}
 
 .back-top{
-  position:fixed;bottom:1.8rem;right:1.8rem;width:46px;height:46px;border-radius:50%;
+  position:fixed;bottom:6rem;right:1.8rem;width:46px;height:46px;border-radius:50%;
   background:var(--surface);border:1px solid var(--border-strong);color:var(--accent);
   display:flex;align-items:center;justify-content:center;z-index:900;cursor:pointer;
   opacity:0;transform:translateY(10px);pointer-events:none;transition:opacity 0.3s,transform 0.3s,border-color 0.3s;
 }
 .back-top.visible{opacity:1;transform:translateY(0);pointer-events:all;}
 .back-top:hover{border-color:var(--accent);}
+
+.whatsapp-float{
+  position:fixed;bottom:1.8rem;right:1.8rem;width:54px;height:54px;border-radius:50%;
+  background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;
+  z-index:950;box-shadow:0 10px 26px -10px rgba(37,211,102,0.6);text-decoration:none;
+  transition:transform 0.3s var(--ease),box-shadow 0.3s var(--ease);
+}
+.whatsapp-float svg{width:28px;height:28px;}
+.whatsapp-float:hover{transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(37,211,102,0.75);}
 
 .reveal{opacity:0;transform:translateY(26px);transition:opacity 0.8s var(--ease),transform 0.8s var(--ease);}
 .reveal.visible{opacity:1;transform:translateY(0);}
@@ -635,6 +644,9 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
   .about-photo-badge{left:0.8rem;bottom:-1rem;padding:0.8rem 1rem;}
   nav{padding:0.9rem 1.3rem;}
   .lightbox-close{top:1rem;right:1.3rem;}
+  .whatsapp-float{width:48px;height:48px;bottom:1.2rem;right:1.2rem;}
+  .whatsapp-float svg{width:24px;height:24px;}
+  .back-top{width:42px;height:42px;bottom:4.8rem;right:1.2rem;}
 }
 </style>
 </head>
@@ -692,8 +704,8 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
       <div class="hero-left">
         <p class="hero-greeting reveal">Hi there, I'm</p>
         <h1 class="hero-name reveal">Akintoye <span class="grad-text">Samuel</span></h1>
-        <p class="hero-role reveal reveal-d1" id="heroRole" aria-live="polite"><span class="hero-role-static">I'm a</span> <span id="heroRoleText">Graphic Designer</span><span class="cursor-blink"></span></p>
-        <p class="hero-desc reveal reveal-d1">Design that performs, not just impresses I build brand identities, product interfaces and motion work for companies across the US, UK, Canada, Nigeria and Ghana, available worldwide, remote or on-site.</p>
+        <p class="hero-role reveal reveal-d1" id="heroRole" aria-live="polite"><span class="hero-role-static">I'm a</span> <span id="heroRoleText">Senior Creative Designer</span><span class="cursor-blink"></span></p>
+        <p class="hero-desc reveal reveal-d1">Design that performs, not just impresses. I create brand identities, digital products, 3D visuals, motion graphics and video content for businesses across Nigeria, Ghana, the UK, US, Canada and beyond, available worldwide for remote opportunities.</p>
 
         <div class="hero-actions reveal reveal-d2">
           <a href="#contact" class="btn btn-primary">Hire Me <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg></a>
@@ -787,13 +799,13 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
     </div>
     <div class="about-text reveal reveal-d1">
       <p class="eyebrow">About Me</p>
-      <h2 style="font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:1.6rem;">Senior designer, systems thinker, video &amp; motion creator.</h2>
-      <p>I'm a Senior Graphic Designer with over seven years of experience helping businesses build strong visual identities through branding, UI/UX design, motion graphics, video editing and digital marketing.</p>
-      <p>I design with intent every layout, colour and interaction is built to improve brand visibility, engage audiences, increase conversions and communicate ideas clearly. I also produce AI-generated talking videos for businesses, brands, education and marketing using professional AI video tools.</p>
+      <h2 style="font-size:clamp(1.8rem,3vw,2.6rem);margin-bottom:1.6rem;">Senior Creative Designer, systems thinker, 3D &amp; motion creator.</h2>
+      <p>I'm a Senior Creative Designer with 7+ years of experience spanning graphic design, 3D design, UI/UX, motion graphics, video production, branding and digital creative solutions. I help businesses build strong visual identities, engaging digital products and high-impact marketing content across digital and print platforms.</p>
+      <p>I design with intent, combining visual storytelling, user-centered thinking and technical creativity to create work that strengthens brands, engages audiences and communicates ideas clearly. My experience covers branding, UI/UX, 3D visualization, motion graphics, video editing and AI-assisted creative production, with additional knowledge of front-end technologies and Python development.</p>
       <div class="about-facts">
         <div class="about-fact"><div class="label">Based In</div><div class="value">Nigeria - available worldwide</div></div>
         <div class="about-fact"><div class="label">Experience</div><div class="value">7+ years</div></div>
-        <div class="about-fact"><div class="label">Focus</div><div class="value">Brand · UI/UX · Motion</div></div>
+        <div class="about-fact"><div class="label">Focus</div><div class="value">Brand · UI/UX · 3D · Motion</div></div>
         <div class="about-fact"><div class="label">Mode</div><div class="value">Remote &amp; on-site</div></div>
       </div>
     </div>
@@ -838,6 +850,11 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
         <h3>User Flows &amp; Prototyping</h3>
         <p>Clickable, tested prototypes that de-risk product decisions before a single line of code is written.</p>
       </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 8l9-5 9 5-9 5-9-5Z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg></div>
+        <h3>3D Design &amp; Visualization</h3>
+        <p>3D visuals and visualization for branding, presentations, product concepts and creative marketing applications.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -852,6 +869,7 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
         <p class="skill-cat-title">Design</p>
         <div class="skill-row"><div class="skill-row-top"><span>Brand Identity &amp; Typography</span><span>96%</span></div><div class="skill-track"><div class="skill-fill" data-width="96"></div></div></div>
         <div class="skill-row"><div class="skill-row-top"><span>Layout &amp; Colour Theory</span><span>94%</span></div><div class="skill-track"><div class="skill-fill" data-width="94"></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>3D Graphic Design &amp; Visualization</span><span>78%</span></div><div class="skill-track"><div class="skill-fill" data-width="78"></div></div></div>
       </div>
       <div class="skill-cat">
         <p class="skill-cat-title">UI / UX</p>
@@ -877,6 +895,7 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
         <div class="software-chip">Figma</div>
         <div class="software-chip">Adobe XD</div>
         <div class="software-chip">CorelDRAW</div>
+        <div class="software-chip">Autodesk AutoCAD</div>
         <div class="software-chip">CapCut</div>
         <div class="software-chip">Synthesia</div>
         <div class="software-chip">HeyGen</div>
@@ -1072,8 +1091,13 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
     <div class="timeline reveal">
       <div class="timeline-item">
         <p class="timeline-period">2018 — Present · 7+ Years</p>
-        <h3>Senior Graphic &amp; UI/UX Designer - Freelance / Remote</h3>
-        <p>Delivering brand identity, product UI/UX, motion graphics and video editing for startups and agencies across the US, UK, Canada, Nigeria and Ghana, including fintech, real-estate, education and hospitality clients.</p>
+        <h3>Senior Creative Designer — Graphic, UI/UX, 3D &amp; Motion</h3>
+        <p>Delivering brand identity, product UI/UX, 3D visuals, motion graphics and video editing for startups and agencies across the US, UK, Canada, Nigeria and Ghana, including fintech, real-estate, education and hospitality clients.</p>
+      </div>
+      <div class="timeline-item">
+        <p class="timeline-period">02/2025 — Present</p>
+        <h3>Senior Graphic Designer &amp; Video Editor — SmartTeller</h3>
+        <p>Graphic design, UI/UX and video production work for SmartTeller, including motion graphics and brand assets.</p>
       </div>
       <div class="timeline-item">
         <p class="timeline-period">Ongoing</p>
@@ -1194,9 +1218,9 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
           <span class="contact-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-3a2 2 0 0 1 4 0v3M12 13v3"/></svg></span>
           <span><strong>LinkedIn</strong><span>akintoye-omoobaiye</span></span>
         </a>
-        <a href="https://akintoyesamuel.github.io/portfolio/" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <a href="https://akintoyesamuelportfolio.netlify.app" target="_blank" rel="noopener noreferrer" class="contact-link">
           <span class="contact-link-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/></svg></span>
-          <span><strong>Portfolio</strong><span>akintoyesamuel.github.io/portfolio/</span></span>
+          <span><strong>Portfolio</strong><span>akintoyesamuelportfolio.netlify.app</span></span>
         </a>
       </div>
     </div>
@@ -1239,6 +1263,10 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
 <button class="back-top" id="backTop" aria-label="Back to top">
   <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
 </button>
+
+<a class="whatsapp-float" href="https://wa.me/message/VKAQ4DSG7TQTH1" target="_blank" rel="noopener noreferrer" aria-label="Chat with me on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2.003c-5.514 0-9.997 4.483-9.997 9.997 0 1.762.46 3.482 1.335 4.997L2 22l5.116-1.338a9.965 9.965 0 0 0 4.888 1.28h.004c5.514 0 9.997-4.483 9.997-9.997 0-2.671-1.04-5.182-2.929-7.071A9.929 9.929 0 0 0 12.004 2.003zm0 18.174h-.003a8.16 8.16 0 0 1-4.158-1.14l-.298-.177-3.037.795.811-2.96-.194-.304a8.147 8.147 0 0 1-1.253-4.393c0-4.507 3.667-8.174 8.176-8.174 2.183 0 4.235.851 5.78 2.397a8.113 8.113 0 0 1 2.393 5.782c0 4.507-3.668 8.174-8.217 8.174z"/></svg>
+</a>
 
 <div class="lightbox" id="lightbox">
   <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">×</button>
@@ -1325,7 +1353,7 @@ footer{padding:3rem 0;border-top:1px solid var(--border);}
   window.addEventListener('scroll', () => { if(!ticking){ requestAnimationFrame(onScroll); ticking = true; } }, {passive:true});
   backTop.addEventListener('click', () => window.scrollTo({top:0, behavior: reduceMotion ? 'auto' : 'smooth'}));
 
-  const roles = ["Graphic Designer","UI/UX Designer","Motion Designer","Video Editor"];
+  const roles = ["Senior Creative Designer","Graphic & UI/UX Designer","3D & Motion Graphics Designer","Video Editor","Python Developer"];
   const roleTextEl = document.getElementById('heroRoleText');
   {
     let ri = 0, ci = 0, deleting = false;
